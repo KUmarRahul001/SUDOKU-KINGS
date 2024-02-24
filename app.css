@@ -42,6 +42,33 @@
     user-select: none; /* For non-WebKit-based browsers */
 }
 
+/* Newly added styles for the content */
+
+#how-to-play {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--bg-main);
+    color: var(--color-txt);
+    border-radius: var(--border-radius);
+}
+
+#how-to-play h2 {
+    font-size: var(--font-size-xl);
+    margin-bottom: 20px;
+}
+
+#how-to-play ol {
+    margin-bottom: 20px;
+}
+
+#how-to-play p {
+    margin-bottom: 20px;
+}
+
+#how-to-play li {
+    margin-bottom: 10px;
+}
 
 
 body {
